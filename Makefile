@@ -1,7 +1,7 @@
 cc     = gcc
 CC     = g++
 
-INC    =
+INC    = -Iinclude
 LIBS   = -L. -lgmpfrxx -lmpfr -lgmpxx -lgmp -lm
 
 #ROOT   = /Users/wilken
