@@ -3,7 +3,7 @@ CC     = g++
 CFLAGS = -g -Wall
 
 INC    =
-LIBS   = -lgmpfrxx -lmpfr -lgmpxx -lgmp -lm
+LIBS   = -L. -lgmpfrxx -lmpfr -lgmpxx -lgmp -lm
 
 #ROOT   = /Users/wilken
 #INC    = -I$(ROOT)/include
