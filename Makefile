@@ -1,6 +1,5 @@
 cc     = gcc
 CC     = g++
-CFLAGS = -g -Wall
 
 INC    =
 LIBS   = -L. -lgmpfrxx -lmpfr -lgmpxx -lgmp -lm
@@ -41,4 +40,4 @@ gmpfrxx.zip : always
 
 .PHONY : clean
 clean:
-	rm -f *.o example
+	rm -f *.o example libgmpfrxx.a
